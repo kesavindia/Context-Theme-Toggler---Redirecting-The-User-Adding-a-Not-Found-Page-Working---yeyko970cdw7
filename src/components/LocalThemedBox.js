@@ -15,10 +15,9 @@ return(
     className={`bg-${localTheme}`}>
         {/* Write code below this line */}
         <p className={`txt-${localTheme}`} id="local-themed-text-container">anything</p>
-        <button onClick={changeLocalTheme} id='local-theme-toggler' className={`btn btn-${localTheme}`}>
+        <button onClick={changeLocalTheme} id="local-theme-toggler" className={`btn btn-${localTheme}`}>
             Toggle local theme to{localTheme=='light'?'dark':'light'}</button>
     </div>
 )
 }
-
 export { LocalThemedBox }
