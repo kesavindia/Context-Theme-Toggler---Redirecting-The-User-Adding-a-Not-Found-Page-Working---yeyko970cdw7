@@ -11,6 +11,5 @@ const ThemeToggleButton = () =>{
        </button>
        </>
     )
-
 }
 export {ThemeToggleButton}

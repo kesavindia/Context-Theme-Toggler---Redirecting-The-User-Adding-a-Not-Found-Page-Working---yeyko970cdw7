@@ -3,6 +3,7 @@ import '../styles/App.css';
 import { ThemeProvider } from './ThemeProvider';
 import { ThemeToggleButton } from './ThemeToggleButton';
 import { Page } from './Page'
+import { LocalThemedBox } from './LocalThemedBox';
 const App = () => {
 
   return (
